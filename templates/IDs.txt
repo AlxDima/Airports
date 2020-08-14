@@ -1,0 +1,16 @@
+IDs
+Total flight-									 	id="totalFlights"
+Total flight frequency- 							id="totalFlightsF"
+Total flight frequency stacked - 					id="totalFlightsFrequencyStacked"
+Total flights stacked percentage 					id="totalFlightsStackPercentage"
+Top 10 flights										id="topFlights"
+
+temperature JFK										id="temperatureJFK"
+temperature all locations							id="temperatureALL"
+Temp daily mean all locations						id="temperatureDailyMean3x"
+Temp daily mean JFK									id="temperaturedailyMeanJFK"
+
+Manufactorers more than 200 planes					id="manufac200"
+Flights for Manufac > 200 planes					id="manufac200Flights"
+AIRBUS												id="airbus"
+

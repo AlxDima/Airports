@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Back to Home</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="totalFlights.html">Total flights</a></li>
+        <li><a href="flightsTop10.html">Top 10 destinations</a></li>
+        <li><a href="airtime.html">Mean air time</a></li>
+        <li><a href="delays.html">Mean departure and arrival delays </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+		<div class="container">
+  			<h3>{% block head %}{% endblock %}</h3>                                        
+  			<div class="dropdown">
+    			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Display options:
+    			<span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+      				<li><a href="totalFlightsF.html">Frequency</a></li>
+      				<li><a href="totalFlightsFS.html">Frequency Stacked</a></li>
+      				<li><a href="totalFlightsSP.html">Stacked Percentage</a></li>
+    			</ul>
+  			</div>
+		</div>
+
+
+
+	</body>
+</html>
